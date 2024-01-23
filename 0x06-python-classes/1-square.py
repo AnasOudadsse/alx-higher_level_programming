@@ -4,9 +4,9 @@
 class Square:
     """defining the Square class"""
     def __init__(self, size):
-    """constructor
+        """constructor
 
-    Attributes:
-        size: length of the square 
-    """
+        Attributes:
+            size: length of the square 
+        """
         self.__size = size
