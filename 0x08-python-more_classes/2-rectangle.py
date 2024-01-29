@@ -4,7 +4,7 @@
 
 class Rectangle:
     """
-     This class defines a rectangle and provides methods to calculate its area and perimeter.
+     defines a rectangle and calculate its area and perimeter.
 
     Attributes:
         width (int): The width of the rectangle.
@@ -108,7 +108,7 @@ class Rectangle:
             int: The perimeter of the rectangle.
         """
 
-        if ( self._width == 0) or (self._height == 0):
+        if (self._width == 0) or (self._height == 0):
             return 0
         else:
             return 2 * (self._width + self._height)

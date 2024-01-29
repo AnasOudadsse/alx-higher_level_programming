@@ -4,7 +4,7 @@
 
 class Rectangle:
     """
-     This class defines a rectangle and provides methods to calculate its area and perimeter.
+     defines a rectangle and calculate its area and perimeter.
 
     Attributes:
         width (int): The width of the rectangle.
