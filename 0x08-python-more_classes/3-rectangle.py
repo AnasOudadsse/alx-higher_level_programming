@@ -58,12 +58,4 @@ class Rectangle:
         """
         if self.__width == 0 or self.__height == 0:
             return("")
-
-        rect = ""
-
-        for i in range(self.__height):
-            for j in range(self.__width):
-                rect += "#"
-            if i != self.__height - 1:
-                rect += '\n'
-        return rect
+        return "\n".join(["#" * self._width for _ in range(self._height)])
