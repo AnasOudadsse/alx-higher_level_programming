@@ -1,5 +1,4 @@
 #!/usr/bin/python3
 
 def copy_list(lst):
-    cp = lst
-    return cp
+    return lst.copy()
